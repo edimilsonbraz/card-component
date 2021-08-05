@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
@@ -14,44 +15,49 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
 
   <!-- STILE -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-  <main>
-    <div class="container">
-      <div class="content-main">
-        <h1>Get <span class="insights">insights</span> that help your business grow.</h1> 
+  <section class="container">
+    <div class="card">
+      <div class="card-text-part">
+        <div class="block">
+          <h1>Get <span>insights</span> that help your business grow.</h1> 
+          <p class="text">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="stats">
+            <div class="stat-block">
+              <div class="stat-num">10k+</div>
+              <div class="stat-title">companies</div>
+            </div>
 
-        <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+            <div class="stat-block">
+              <div class="stat-num">314</div>
+              <div class="stat-title">templates</div>
+            </div>
 
-        <div class="infor">
-          <div class="companies">
-            <span>10k+</span>  
-            <span>companies</span> 
+            <div class="stat-block">
+              <div class="stat-num">12m+</div>
+              <div class="stat-title">queries</div>
+            </div>
           </div>
 
-          <div class="templates">
-            <span>314</span>
-            <span>templates</span>
-          </div>
-
-          <div class="queries">
-            <span>12m+</span>
-            <span>queries</span>
-          </div>
         </div>
       </div>
-      <div class="content-img">
-        <img src="images/image-header-desktop.jpg" alt="">
+      <div class="card-img-part">
+        <img class="img-desktop" src="./images/image-header-desktop.jpg" alt="hero-img">
+        <img class="img-mobile" src="./images/image-header-mobile.jpg" alt="hero-img">
+        <div class="pink"></div>
       </div>
     </div>
-  </main>
-  
-  <footer>
+  </section>
+
+  <section class="footer">
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> | 
       Coded by <a href="#">Edimilson Braz</a>.
     </div>
-  </footer>
+  </section>
 </body>
 </html>

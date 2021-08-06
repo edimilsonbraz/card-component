@@ -7,7 +7,6 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     
-    <title>Frontend Mentor | Stats preview card component</title>
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,48 +15,53 @@
 
     <!-- STILE -->
     <link rel="stylesheet" href="./styles/styles.css">
+
+    <title>Frontend Mentor | Stats preview card component</title>
   </head>
   <body>
-    <section class="container">
-      <div class="card">
-        <div role="contentmain" class="card-text-part">
-          <div class="block">
-            <h1>Get <span>insights</span> that help your business grow.</h1> 
-            <p class="text">
-              Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
-            </p>
-            <div class="stats">
-              <div class="stat-block">
-                <div class="stat-num">10k+</div>
-                <div class="stat-title">companies</div>
+    <main>
+      <section class="container">
+        <div class="card">
+          <div role="contentmain" class="card-text-part">
+            <div class="block">
+              <h1>Get <span>insights</span> that help your business grow.</h1> 
+              <p class="text">
+                Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.
+              </p>
+              <div class="stats">
+                <div class="stat-block">
+                  <div class="stat-num">10k+</div>
+                  <div class="stat-title">companies</div>
+                </div>
+
+                <div class="stat-block">
+                  <div class="stat-num">314</div>
+                  <div class="stat-title">templates</div>
+                </div>
+
+                <div class="stat-block">
+                  <div class="stat-num">12m+</div>
+                  <div class="stat-title">queries</div>
+                </div>
               </div>
 
-              <div class="stat-block">
-                <div class="stat-num">314</div>
-                <div class="stat-title">templates</div>
-              </div>
-
-              <div class="stat-block">
-                <div class="stat-num">12m+</div>
-                <div class="stat-title">queries</div>
-              </div>
             </div>
-
+          </div>
+          <div role="contentimg" class="card-img-part">
+            <img role="img-desktop" class="img-desktop" src="./images/image-header-desktop.jpg" alt="hero-img">
+            <img role="img-mobile" class="img-mobile" src="./images/image-header-mobile.jpg" alt="hero-img">
+            <div class="pink"></div>
           </div>
         </div>
-        <div role="contentimg" class="card-img-part">
-          <img role="img-desktop" class="img-desktop" src="./images/image-header-desktop.jpg" alt="hero-img">
-          <img role="img-mobile" class="img-mobile" src="./images/image-header-mobile.jpg" alt="hero-img">
-          <div class="pink"></div>
-        </div>
-      </div>
-    </section>
-
-    <div role="footer" class="footer">
+      </section>
+    </main>
+    
+    <footer class="footer">
       <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> | 
         Coded by <a href="#">Edimilson Braz</a>.
       </div>
-    </div>
+    </footer>
+
   </body>
 </html>
